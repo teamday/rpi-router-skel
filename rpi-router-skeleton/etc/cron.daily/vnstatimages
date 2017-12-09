@@ -1,0 +1,7 @@
+#!/bin/sh
+vnstati -hs -o /var/www/html/eth0_hs.png -i eth0 -ne
+vnstati -hs -o /var/www/html/eth1_hs.png -i eth1 -ne
+
+vnstati -d -o /var/www/html/eth0_d.png -i eth0 -ne
+vnstati -d -o /var/www/html/eth1_d.png -i eth1 -ne
+

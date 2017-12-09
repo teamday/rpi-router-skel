@@ -1,0 +1,3 @@
+color desert
+syntax on
+

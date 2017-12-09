@@ -1,0 +1,18 @@
+create blockedip hash:ip family inet hashsize 1024 maxelem 65536
+add blockedip 185.152.66.45
+add blockedip 185.180.13.99
+add blockedip 74.120.16.240
+add blockedip 185.93.0.153
+add blockedip 142.0.199.12
+add blockedip 34.225.198.30
+add blockedip 52.202.46.10
+add blockedip 142.0.192.244
+create localaddr hash:net family inet hashsize 1024 maxelem 65536
+add localaddr 172.16.0.0/12
+add localaddr 224.0.0.0/4
+add localaddr 240.0.0.0/4
+add localaddr 192.168.0.0/16
+add localaddr 0.0.0.0/8
+add localaddr 127.0.0.0/8
+add localaddr 169.254.0.0/16
+add localaddr 10.0.0.0/8

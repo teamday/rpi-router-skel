@@ -1,0 +1,10 @@
+# http://rpf.io/configtxt
+
+dtparam=audio=off
+dtoverlay=pi3-disable-wifi
+dtoverlay=pi3-disable-bt
+disable_splash=1
+disable_audio_dither=1
+gpu_mem=16
+start_x=0
+
