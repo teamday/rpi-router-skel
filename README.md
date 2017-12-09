@@ -2,6 +2,8 @@
 Raspberry Pi 3 router skeleton
 Skeleton for Home router
 
+It's only skeleton, you should install packages and replace configs manually
+
 eth0 internal
 
 eth1 external
@@ -15,3 +17,5 @@ eth1 external
 * lighttpd
 
 ![Screenshot](screenshot.png)
+
+
