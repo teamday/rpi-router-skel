@@ -13,9 +13,9 @@ eth1 external
 
 * iptables (with ipset fixes)
 * vnstatd
-* dnsmasq
+* dnsmasq (with DNS adblock)
 * minissdpd
-* lighttpd
+* lighttpd (no cgi/php)
 
 ![Screenshot](screenshot.png)
 
